@@ -6,9 +6,15 @@ git clone 레포주소
 ### 2. 가상환경 생성
 cd wordCount # 폴더로 이동
 <br>
-python -m venv myvenv #가상환경 생성하기
 <br>
-source myvenv/scripts/activate #가상환경 실행하기
+python -m venv myvenv #가상환경 생성하기 (윈도우)
+<br>
+python3 -m venv myvenv #가상환경 생성하기 (맥)
+<br>
+<br>
+source myvenv/scripts/activate #가상환경 실행하기 (윈도우)
+<br>
+source myvenv/bin/activate #가상환경 실행하기 (맥)
 
 ### 3. 장고 설치
 pip install django #장고 설치하기
